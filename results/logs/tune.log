@@ -1,0 +1,102 @@
+15:02:39 Encoding 22402 pool, 2500 dev and 24676 test reviews
+15:02:42 logistic_indicator {"C": 0.01} dev_accuracy=0.8700 (0s)
+15:02:43 logistic_indicator {"C": 0.1} dev_accuracy=0.8756 (1s)
+15:02:44 logistic_indicator {"C": 1.0} dev_accuracy=0.8620 (1s)
+15:02:45 logistic_indicator {"C": 10.0} dev_accuracy=0.8564 (1s)
+15:02:46 logistic_bow {"C": 0.01} dev_accuracy=0.8712 (1s)
+15:02:49 logistic_bow {"C": 0.1} dev_accuracy=0.8776 (3s)
+15:02:53 logistic_bow {"C": 1.0} dev_accuracy=0.8588 (4s)
+15:02:57 logistic_bow {"C": 10.0} dev_accuracy=0.8464 (4s)
+15:02:57 logistic_tfidf {"C": 0.01} dev_accuracy=0.7812 (0s)
+15:02:57 logistic_tfidf {"C": 0.1} dev_accuracy=0.8424 (0s)
+15:02:57 logistic_tfidf {"C": 1.0} dev_accuracy=0.8812 (0s)
+15:02:58 logistic_tfidf {"C": 10.0} dev_accuracy=0.8820 (1s)
+15:03:07 mlp_indicator {"dropout": 0.1, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8836 (9s)
+15:03:21 mlp_indicator {"dropout": 0.1, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8872 (14s)
+15:03:29 mlp_indicator {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8868 (8s)
+15:03:45 mlp_indicator {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8904 (16s)
+15:03:57 mlp_indicator {"dropout": 0.1, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8852 (12s)
+15:04:16 mlp_indicator {"dropout": 0.1, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8884 (19s)
+15:04:28 mlp_indicator {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8900 (12s)
+15:04:49 mlp_indicator {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8884 (21s)
+15:04:57 mlp_bow {"dropout": 0.1, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8832 (8s)
+15:05:09 mlp_bow {"dropout": 0.1, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8836 (12s)
+15:05:19 mlp_bow {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8816 (10s)
+15:05:35 mlp_bow {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8856 (16s)
+15:05:47 mlp_bow {"dropout": 0.1, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8864 (12s)
+15:06:05 mlp_bow {"dropout": 0.1, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8892 (18s)
+15:06:17 mlp_bow {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8892 (12s)
+15:06:38 mlp_bow {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8888 (21s)
+15:06:46 mlp_tfidf {"dropout": 0.1, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8868 (8s)
+15:07:12 mlp_tfidf {"dropout": 0.1, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8928 (26s)
+15:07:22 mlp_tfidf {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8896 (10s)
+15:07:51 mlp_tfidf {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8920 (29s)
+15:08:03 mlp_tfidf {"dropout": 0.1, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8856 (12s)
+15:08:33 mlp_tfidf {"dropout": 0.1, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8956 (29s)
+15:08:45 mlp_tfidf {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8904 (12s)
+15:09:20 mlp_tfidf {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8956 (35s)
+15:09:29 deep-mlp_indicator {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8884 (9s)
+15:09:44 deep-mlp_indicator {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8820 (15s)
+15:09:56 deep-mlp_indicator {"dropout": 0.7, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8884 (11s)
+15:10:12 deep-mlp_indicator {"dropout": 0.7, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8832 (16s)
+15:10:25 deep-mlp_indicator {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8828 (12s)
+15:10:43 deep-mlp_indicator {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8868 (18s)
+15:10:56 deep-mlp_indicator {"dropout": 0.7, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8780 (12s)
+15:11:17 deep-mlp_indicator {"dropout": 0.7, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8912 (21s)
+15:11:25 deep-mlp_bow {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8780 (8s)
+15:11:42 deep-mlp_bow {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8856 (16s)
+15:11:54 deep-mlp_bow {"dropout": 0.7, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8844 (12s)
+15:12:14 deep-mlp_bow {"dropout": 0.7, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8856 (20s)
+15:12:26 deep-mlp_bow {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8868 (12s)
+15:12:48 deep-mlp_bow {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8900 (21s)
+15:13:03 deep-mlp_bow {"dropout": 0.7, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8868 (15s)
+15:13:30 deep-mlp_bow {"dropout": 0.7, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8868 (27s)
+15:13:39 deep-mlp_tfidf {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8936 (8s)
+15:13:55 deep-mlp_tfidf {"dropout": 0.5, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8964 (16s)
+15:14:05 deep-mlp_tfidf {"dropout": 0.7, "hidden_dim": 128, "learning_rate": 0.001} dev_accuracy=0.8884 (10s)
+15:14:26 deep-mlp_tfidf {"dropout": 0.7, "hidden_dim": 128, "learning_rate": 0.0001} dev_accuracy=0.8960 (20s)
+15:14:38 deep-mlp_tfidf {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8896 (12s)
+15:14:57 deep-mlp_tfidf {"dropout": 0.5, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8928 (18s)
+15:15:10 deep-mlp_tfidf {"dropout": 0.7, "hidden_dim": 256, "learning_rate": 0.001} dev_accuracy=0.8888 (13s)
+15:15:34 deep-mlp_tfidf {"dropout": 0.7, "hidden_dim": 256, "learning_rate": 0.0001} dev_accuracy=0.8972 (24s)
+{
+  "deep-mlp_bow": {
+    "dropout": 0.5,
+    "hidden_dim": 256,
+    "learning_rate": 0.0001
+  },
+  "deep-mlp_indicator": {
+    "dropout": 0.7,
+    "hidden_dim": 256,
+    "learning_rate": 0.0001
+  },
+  "deep-mlp_tfidf": {
+    "dropout": 0.7,
+    "hidden_dim": 256,
+    "learning_rate": 0.0001
+  },
+  "logistic_bow": {
+    "C": 0.1
+  },
+  "logistic_indicator": {
+    "C": 0.1
+  },
+  "logistic_tfidf": {
+    "C": 10.0
+  },
+  "mlp_bow": {
+    "dropout": 0.1,
+    "hidden_dim": 256,
+    "learning_rate": 0.0001
+  },
+  "mlp_indicator": {
+    "dropout": 0.5,
+    "hidden_dim": 128,
+    "learning_rate": 0.0001
+  },
+  "mlp_tfidf": {
+    "dropout": 0.1,
+    "hidden_dim": 256,
+    "learning_rate": 0.0001
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "system": "mlp_bow",
+  "params": {
+    "dropout": 0.1,
+    "hidden_dim": 256,
+    "learning_rate": 3e-05
+  },
+  "num_models": 15,
+  "single_model_accuracy_mean": 0.880331766358675,
+  "single_model_accuracy_std": 0.0007481055808486844,
+  "majority_vote": {
+    "accuracy": 0.885313665099692,
+    "macro_f1": 0.8853087218687743
+  }
+}

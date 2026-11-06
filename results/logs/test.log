@@ -1,0 +1,31 @@
+16:27:33 Encoding 22402 pool, 2500 dev and 24676 test reviews
+16:28:10 seed=0 fold=0 test accuracy=0.8807
+16:28:42 seed=0 fold=1 test accuracy=0.8796
+16:29:30 seed=0 fold=2 test accuracy=0.8805
+16:30:23 seed=0 fold=3 test accuracy=0.8801
+16:30:59 seed=0 fold=4 test accuracy=0.8811
+16:31:31 seed=3 fold=0 test accuracy=0.8815
+16:32:09 seed=3 fold=1 test accuracy=0.8811
+16:32:43 seed=3 fold=2 test accuracy=0.8794
+16:33:17 seed=3 fold=3 test accuracy=0.8790
+16:34:00 seed=3 fold=4 test accuracy=0.8813
+16:34:38 seed=5 fold=0 test accuracy=0.8800
+16:35:19 seed=5 fold=1 test accuracy=0.8808
+16:35:55 seed=5 fold=2 test accuracy=0.8797
+16:36:26 seed=5 fold=3 test accuracy=0.8800
+16:36:58 seed=5 fold=4 test accuracy=0.8801
+{
+  "system": "mlp_bow",
+  "params": {
+    "dropout": 0.1,
+    "hidden_dim": 256,
+    "learning_rate": 3e-05
+  },
+  "num_models": 15,
+  "single_model_accuracy_mean": 0.880331766358675,
+  "single_model_accuracy_std": 0.0007481055808486844,
+  "majority_vote": {
+    "accuracy": 0.885313665099692,
+    "macro_f1": 0.8853087218687743
+  }
+}

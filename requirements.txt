@@ -1,0 +1,13 @@
+jupyter
+nbconvert
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+scikit-learn
+torch
+tokenizers
+datasets
+baycomp
+tqdm
